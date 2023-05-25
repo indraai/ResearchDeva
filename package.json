@@ -1,0 +1,29 @@
+{
+  "id": 4525272223495,
+  "name": "@indra.ai/researchdeva",
+  "version": "0.0.1",
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "copyright": "2023",
+  "description": "The Research Deva handles the @STORY in #ResearchLand.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraai/ResearchDeva.git"
+  },
+  "keywords": [
+    "Research",
+    "Deva",
+    "deva.world"
+  ],
+  "bugs": {
+    "url": "https://github.com/indraai/ResearchDeva/issues"
+  },
+  "homepage": "https://github.com/indraai/ResearchDeva#readme",
+  "dependencies": {
+    "@indra.ai/deva": "^1.1.70"
+  }
+}
