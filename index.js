@@ -53,6 +53,11 @@ const RESEARCH = new Deva({
       const research = this.research();
       research.personal.questions.push(packet);
     },
+    /**************
+    func: res_answer
+    params: packet
+    describe: the research answer function adds a new answer item to the research que.
+    ***************/
     res_answer(packet) {
       const agent = this.agent();
       const research = this.research();

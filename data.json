@@ -7,8 +7,8 @@
       "id": 3605038032151,
       "key": "research",
       "prompt": {
-        "emoji": "🔬 ",
-        "text": "story",
+        "emoji": "🔬",
+        "text": "research",
         "colors": {
           "label": {
             "R": 0,
