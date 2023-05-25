@@ -43,6 +43,11 @@ const RESEARCH = new Deva({
   modules: {},
   deva: {},
   func: {
+    /**************
+    func: res_question
+    params: packet
+    describe: the research question function adds a new item to the research que.
+    ***************/
     res_question(packet) {
       const agent = this.agent();
       const research = this.research();
