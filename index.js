@@ -25,21 +25,13 @@ const {agent,vars} = require(data_path).DATA;
 const Deva = require('@indra.ai/deva');
 const RESEARCH = new Deva({
   info,
-  agent: {
-    id: agent.id,
-    key: agent.key,
-    describe: agent.describe,
-    prompt: agent.prompt,
-    voice: agent.voice,
-    profile: agent.profile,
-    translate(input) {
-      return input.trim();
-    },
-    parse(input) {
-      return input.trim();
-    }
-  },
+  agent,
   vars,
+  utils: {
+    translate(input) {return input.trim();},
+    parse(input) {return input.trim();},
+    process(input) {return input.trim();}
+  },
   listeners: {},
   modules: {},
   deva: {},
